@@ -503,31 +503,31 @@ ul.x-tab-strip-bottom {
     -khtml-border-radius:3px;
     border-radius:3px;
     background: url("/manager/templates/default/images/modx-theme/form/button-bg.png") repeat-x scroll 0 bottom #61656F;
-    background:-moz-linear-gradient(center bottom,#61656F 0%,#95989F 100%) repeat scroll 0 0 transparent;
-    background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#95989F),color-stop(100%,#61656F));
-    background:-webkit-linear-gradient(center bottom,#61656F 0%,#95989F 100%);
-    background:-o-linear-gradient(center bottom,#61656F 0%,#95989F 100%);
-    background:-ms-linear-gradient(center bottom,#61656F 0%,#95989F 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#95989F,endColorstr=#61656F,GradientType=0);
-    background:linear-gradient(center bottom,#61656F 0%,#95989F 100%);
+    background:-moz-linear-gradient(center bottom,#D5D5D5 0%,#F5F5F5 100%) repeat scroll 0 0 transparent;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#F5F5F5),color-stop(100%,#D5D5D5));
+    background:-webkit-linear-gradient(center bottom,#D5D5D5 0%,#F5F5F5 100%);
+    background:-o-linear-gradient(center bottom,#D5D5D5 0%,#F5F5F5 100%);
+    background:-ms-linear-gradient(center bottom,#D5D5D5 0%,#F5F5F5 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#F5F5F5,endColorstr=#D5D5D5,GradientType=0);
+    background:linear-gradient(center bottom,#D5D5D5 0%,#F5F5F5 100%);
     border-collapse:separate;
     line-height:1;
     margin:0 1px;
     padding:0 0 5px;
     text-decoration:none;
-    border-color:#61656F #61656F #3B414F;
+    border-color:#CACACA #C0C0C0 #AAAAAA;
     border-style:solid;
     border-width:1px;
     position:relative;
     cursor:pointer;
 }
 .x-btn button {
-    color:#F0F0F0;
+    color: #61656F;
+    cursor: pointer;
     font: 14px 'Cuprum',sans-serif;
-    height:20px !important;
-    cursor:pointer;
-    padding:3px 6px 0 !important;
-    text-shadow:0 1px 0 #53575F;
+    height: 20px !important;
+    padding: 3px 6px 0 !important;
+    text-shadow: 0 1px 0 #F0F0F0;
 }
 .x-btn em {
     font-style:normal;

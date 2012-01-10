@@ -58,11 +58,13 @@ h1 {
 /* Top menu */
 
 #modx-header {
-  background:url("../images/style/nav-bg.png") repeat-x scroll 0 0;
-  border-bottom: 1px solid #E0E0E0;
-  margin-bottom:0;
-  padding:0 15px;
-  height:78px !important;
+    background: url("../images/style/nav-bg.png") repeat-x scroll 0 0 transparent;
+    border-bottom: 1px solid #E0E0E0;
+    height: 78px !important;
+    margin-bottom: 0;
+    padding: 0 15px;
+    position: relative;
+    z-index: 25;
 }
 #modx-header a{
 	text-decoration: none;
@@ -198,7 +200,7 @@ h1 {
 	width:205px;
 }
 #nav ul ul li:hover,#nav ul li a:hover {
-	background:url("../images/style/menu_pattern.png") repeat scroll 0 0 #535B6F;
+	background:url("../images/style/menu_pattern.png") repeat scroll 0 0 #61656F;
 }
 #nav ul ul li:first-child { border-top-color: #61656F; }
 #nav ul ul li:last-child {
@@ -365,11 +367,12 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 }
 
 #modx-container {
+    background: url("../images/style/body_pattern.png") repeat scroll 0 0 transparent !important;
     height: 100%;
-    width: 100%;
     padding: 0;
-    z-index: D5D5D53;
-    background: url(../images/style/body_pattern.png) repeat scroll 0 0 transparent !important;
+    position: relative;
+    width: 100%;
+    z-index: 0;
 }
 
 /* leftbar tabs */
@@ -1661,7 +1664,7 @@ span.required {
 	position:absolute;
 	top:0;
 	width:100%;
-	z-index:14D5D5D5;
+	z-index: 14999;
 }
 #ux-lightbox-shim {
 	background-color:transparent;
