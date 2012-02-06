@@ -282,7 +282,7 @@ ul.x-tab-strip-bottom {
 .x-form-check-wrap{ margin-bottom: 0; }
 .x-form-check-wrap label {
 	color: #61656F;
-    font-weight: bold;
+    font: 14px 'Cuprum',sans-serif;
     margin-left: 6px;
     top: 3px;
 }
@@ -534,6 +534,10 @@ ul.x-tab-strip-bottom {
     font-weight:normal;
 }
 .x-btn-icon {
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
     background:#dedede;
     background:-moz-linear-gradient(center bottom,#dedede 0%,#ffffff 100%) repeat scroll 0 0 transparent;
     background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffffff),color-stop(100%,#dedede));
@@ -1196,10 +1200,10 @@ a.x-grid3-hd-btn:hover { background-position: center 16px; }
 }
 
 .x-grid-group-hd div.x-grid-group-title {
-    background: transparent url(../images/modx-theme/grid/group-collapse.png) no-repeat scroll 3px 10px;
-    padding: 10px 4px 6px 24px;
-    color:#85A948;
-    font:bold 11px arial, tahoma, helvetica, sans-serif;
+    background: url("../images/modx-theme/grid/group-collapse.png") no-repeat scroll 3px 10px transparent;
+    color: #85A948;
+    font: 14px 'Cuprum',sans-serif;
+    padding: 7px 4px 7px 24px;
 }
 
 .x-grid-group-collapsed .x-grid-group-hd div.x-grid-group-title {
@@ -1652,6 +1656,13 @@ td.x-date-mp-sep {
 a.x-menu-item {
     color:#555;
     padding:3px 25px 3px 30px;
+	font: 14px 'Cuprum',sans-serif;
+}
+a.x-menu-item b{
+	display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 5px 0 0;
 }
 
 .x-menu-item-active {
@@ -2330,8 +2341,7 @@ body.x-body-masked .x-window-plain .x-window-mc {
 	color:#61656F;
 }
 .x-form-label-top .x-form-item label.x-form-item-label {
-	font-weight:bold;
-	font-size:12px;
+	font: 14px 'Cuprum',sans-serif;
 	color:#61656F;
 	margin-bottom: 0;
 }
@@ -2341,7 +2351,7 @@ body.x-body-masked .x-window-plain .x-window-mc {
 	display:block;
 	font-size:11px;
 	font-style:italic;
-	margin:-12px 0 14px;
+	margin: -14px 0 14px;
 }
 .desc-under.desc-checkbox,
 .x-window .desc-under.desc-checkbox { margin:-2px 0 4px; }
@@ -2390,10 +2400,7 @@ body.x-body-masked .x-window-plain .x-window-mc {
 .x-window .x-form-label-top .x-form-element {
     padding-top: 0;
 }
-.x-window .x-form-cb-label {
-    color: #707070;
-    font-weight: bold;
-}
+.x-window .x-form-cb-label {}
 .x-window .x-panel-mc { border:0 none; }
 .x-window .x-panel-ml { border:0 none; }
 .x-window .x-panel-bl.x-panel-nofooter, 
@@ -2419,6 +2426,9 @@ body.x-body-masked .x-window-plain .x-window-mc {
 .x-window-dlg .x-window-body {
 	background: none repeat scroll 0 0 #F4F4F4 !important;
     padding: 15px 15px 5px;
+}
+.x-window-dlg .x-dlg-icon .ext-mb-content {
+    font: 14px 'Cuprum',sans-serif;
 }
 .x-window .x-window-bc .x-panel-btns {
 	background:#dfdfdf;
