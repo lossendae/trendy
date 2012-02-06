@@ -1930,7 +1930,8 @@ span.required { color: #777; }
     font-weight: bold;
     margin-bottom: 2px;
 }
-.inline-form input[type=text], .inline-form textarea{
+.inline-form input[type=text], 
+.inline-form textarea{
 	 -moz-border-radius:2px;
     -webkit-border-radius:2px;
     -o-border-radius:2px;
