@@ -2335,6 +2335,7 @@ body.x-body-masked .x-window-plain .x-window-mc {
 /* pretty form stuff */
 
 .x-form-label-top .x-form-element { padding: 4px 0 8px; }
+.x-form-label-top .x-form-item { padding-bottom: 16px; }
 .x-form-label-top .x-form-item label.x-form-item-label {
 	font-weight:bold;
 	font-size:12px;
@@ -2351,7 +2352,7 @@ body.x-body-masked .x-window-plain .x-window-mc {
 	display:block;
 	font-size:11px;
 	font-style:italic;
-	margin: -14px 0 14px;
+	margin: -25px 0 16px;
 }
 .desc-under.desc-checkbox,
 .x-window .desc-under.desc-checkbox { margin:-2px 0 4px; }
